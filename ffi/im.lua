@@ -105,6 +105,9 @@ typedef struct _imImage
 } imImage;
 
 imImage* imFileImageLoad(const char* file_name, int index, int *error);
+
+void imImageDestroy(imImage* image);
+
 ]]
 
 return im
